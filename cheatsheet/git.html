@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Git</title>
+  </head>
+  <body>
+    <h1>Git Cheatsheet</h1>
+    <p>
+      Git is a Version Control System.
+      Git has 3 location.
+    </p>
+    <ul>
+      <li>Working Directory</li>
+      <li>Index</li>
+      <li>Repository</li>
+    </ul>
+    <p>Git commands copy files between these location.</p>
+    <h2>Git Workflow</h2>
+
+    <pre>
+              <strong>Working directory</strong>
+                    &darr;&uarr;
+                git diff ...
+                    &darr;
+                git add ...
+                    &darr;
+                  <strong>Index</strong>
+                    &darr;
+                git commit ...
+                    &darr;
+                <strong>Repository</strong>
+
+    </pre>
+
+    <h2>Git Init</h2>
+    <ul>
+      <li>Tell Git where the root of the Repository is.</li>
+      <li>Example: %.....poco&gt;git init</li>
+      <li>Now everything in the poco folder can be managed by git</li>
+    </ul>
+
+    <h2>Git Status</h2>
+    <ul>
+      <li>Lists all new or modified files to be commited</li>
+      <li>%git status</li>
+    </ul>
+
+    <h2>Git Add</h2>
+    <ul>
+      <li>Git add will add the files to index.</li>
+      <li>%git add file-name</li>
+      <li>%git add file1.ext file2.ext file3.ext to add multiple files</li>
+    </ul>
+
+    <h2>Git Commit</h2>
+    <ul>
+      <li>git commit will move the files in the index to repository.</li>
+      <li>%git commit -m "message"</li>
+    </ul>
+
+    <h2>Git diff</h2>
+    <ul>
+      <li>Displays the difference between all the files in Working Directory and
+        the file in index or repository</li>
+      <li>%git diff</li>
+      <li>git diff --cached  (or --staged) displays the differnece between file in index and
+           repository</li>
+    </ul>
+
+    <h2>Git log</h2>
+    <ul>
+      <li>Display commit logs.</li>
+      <li>%git log</li>
+    </ul>
+
+
+  </body>
+</html>
