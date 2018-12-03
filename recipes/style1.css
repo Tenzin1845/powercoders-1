@@ -1,0 +1,33 @@
+body{
+  background-color: rgb(238, 221, 187);
+  color: rgb(119, 51, 0);
+}
+
+h1{
+  color: rgb(51, 68, 34);
+}
+
+h3{
+  color: rgb(51, 68, 34);
+}
+
+div.ingredients{
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(51, 68, 34);
+  padding: 1em;
+}
+
+div.instruction{
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(51, 68, 34);
+  padding: 1em;
+}
+
+div.details{
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(51, 68, 34);
+  padding: 1em;
+}

@@ -1,0 +1,25 @@
+body{
+  background-color: rgb(238, 204, 221);
+  color: rgb(119, 0, 17);
+  margin: .5em;
+}
+
+h1{
+  background-color: rgb(238, 34, 85);
+  padding:1em;
+  color: rgb(249, 226, 226);
+  border-radius: 10px;
+  border-color: rgb(140, 29, 57);
+  border-style:  groove;
+  border-width: thick;
+
+}
+
+h3{
+  background-color: rgb(238, 34, 85);
+  padding:.5em;
+  color: rgb(249, 226, 226);
+  border-radius: 10px;
+  border-color: rgb(140, 29, 57);
+  border-style: solid;
+}
