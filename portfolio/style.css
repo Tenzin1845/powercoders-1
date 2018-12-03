@@ -1,0 +1,79 @@
+h1{
+  background-color: rgba(16.9, 16.9, 40.8);
+  color: rgb(191, 191, 214);
+  border-radius: 5px;
+  margin-left: 1px;
+  margin-right: 1px;
+  text-align: center;
+}
+
+h2.h2-right{
+  border: 1px;
+  padding: 3px;
+  border-style: solid;
+  border-radius: 3px;
+  border-color: rgba(16.9, 16.9, 40.8);
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+h2.h2-left{
+  border: 1px;
+  padding: 3px;
+  border-style: solid;
+  border-radius: 3px;
+  border-color: rgb(164, 172, 221);
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+span.period{
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+span.line1{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+span.line2{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+span.line4{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+img{
+   border-radius: 50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+a{
+  color:rgb(164, 172, 221);
+}
+
+td.left-table{
+  background-color: rgb(46, 54, 110);
+  padding: .5em;
+  color:rgb(164, 172, 221);
+}
+
+td.right-table{
+  background-color: rgb(142, 142, 180);
+  padding: 1em;
+
+}
+
+body{
+  background-color: rgb(142, 142, 180);
+  color:rgb(18, 26, 73);
+
+}
