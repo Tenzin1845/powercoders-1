@@ -1,13 +1,14 @@
-h1{
+h1 {
   background-color: rgba(16.9, 16.9, 40.8);
   color: rgb(191, 191, 214);
   border-radius: 5px;
   margin-left: 1px;
   margin-right: 1px;
   text-align: center;
+  font-family: 'Oswald', sans-serif;
 }
 
-h2.h2-right{
+h2.h2-right {
   border: 1px;
   padding: 3px;
   border-style: solid;
@@ -15,9 +16,10 @@ h2.h2-right{
   border-color: rgba(16.9, 16.9, 40.8);
   margin-left: 1px;
   margin-right: 1px;
+  font-family: 'Oswald', sans-serif;
 }
 
-h2.h2-left{
+h2.h2-left {
   border: 1px;
   padding: 3px;
   border-style: solid;
@@ -25,55 +27,57 @@ h2.h2-left{
   border-color: rgb(164, 172, 221);
   margin-left: 1px;
   margin-right: 1px;
+  font-family: 'Oswald', sans-serif;
 }
 
-span.period{
+span.period {
   float: right;
   font-size: 20px;
   font-weight: bold;
 
 }
 
-span.line1{
+span.line1 {
   font-size: 20px;
   font-weight: bold;
 }
 
-span.line2{
+span.line2 {
   font-size: 16px;
   font-weight: bold;
 }
 
-span.line4{
+span.line4 {
   font-weight: bold;
   text-decoration: underline;
 }
 
-img{
+img {
    border-radius: 50%;
    display: block;
    margin-left: auto;
    margin-right: auto;
 }
 
-a{
+a {
   color:rgb(164, 172, 221);
 }
 
-td.left-table{
+td.left-table {
   background-color: rgb(46, 54, 110);
   padding: .5em;
   color:rgb(164, 172, 221);
 }
 
-td.right-table{
+td.right-table {
   background-color: rgb(142, 142, 180);
   padding: 1em;
 
 }
 
-body{
+body {
   background-color: rgb(142, 142, 180);
   color:rgb(18, 26, 73);
+  font-family: 'Crimson Text', serif;
 
 }
