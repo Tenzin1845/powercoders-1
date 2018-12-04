@@ -1,14 +1,16 @@
-body{
+body {
   background-color: rgb(238, 238, 187);
   color: rgb(85, 102, 51);
+  font-family: 'Merriweather', serif;
 }
 
-h1{
+h1 {
   color: rgb(187, 0, 17);
   text-shadow: 2px 2px 2px black;
+  font-family: 'Ubuntu', sans-serif;
 }
 
-h3{
+h2 {
   color: rgb(187, 0, 17);
-  text-shadow: 1px 1px 1px black;
+  font-family: 'VT323', monospace;
 }
